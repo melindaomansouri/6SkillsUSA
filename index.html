@@ -4,6 +4,7 @@
         <title>Pier 68 rents pontoon boats, fishing boats, kayaks in the Florida Keys - cheapest rates for boat rentals in the Middle Fl Keys</title>
         <meta charset="UTF-8">
         <meta name="keywords" content="cheapest rates for rental boats in the fl keys,best prices for fishing boat,pontoon boat,kayak rentals,middle florida keys,grassy key,conch key,hawks cay resort,duck key,marathon key,middle florida keys,long key,islamorada,city of layton,long key state park kayaking rentals,fun on the water at Pier 68,fun water adventures,excursions on the water">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link type="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/nav.css">
@@ -34,7 +35,7 @@
 
           <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="images/dock_pontoon_boats.jpg" style="width:100%" alt="Pontoon Boat">
+            <img src="images/dock_pontoon_boats.png" style="width:100%" alt="Pontoon Boat">
             <div class="text">Pontoon Boat</div>
           </div>
 
@@ -56,5 +57,22 @@
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div>
+        
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000); //Change every two seconds
+            }
+        </script>
     </body>
 </html>
