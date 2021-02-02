@@ -1,3 +1,11 @@
+.menu {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
 .nav {
     position: relative;
     display: inline-block;
@@ -23,6 +31,10 @@ nav a:hover {
     background-color: #ddd;
 }
 
-nav:hover nav a {
+nav:hover nav {
     display: block
+}
+
+nav:hover .menu {
+    background-color: #3e8e41;
 }
