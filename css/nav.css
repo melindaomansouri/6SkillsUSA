@@ -1,5 +1,5 @@
 .menu {
-  background-color: #4CAF50;
+  background-color: red;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -31,4 +31,4 @@ nav a:hover {background-color: #ddd;}
 
 .nav:hover nav {display: block;}
 
-.nav:hover .menu {background-color: #3e8e41;}
+.nav:hover .menu {background-color: darkred;}
