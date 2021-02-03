@@ -3,10 +3,11 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    width: 90%;
+    height: 100px;
 }
 
 #page-top img {
     width: 10%;
     height: auto;
 }
-
