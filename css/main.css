@@ -7,6 +7,8 @@
     height: 150px;
     align-items: center;
     margin: 10px 5% 50px 5%;
+    border-bottom: 2px solid black;
+    padding: 40px;
 }
 
 #page-top img {
@@ -21,4 +23,13 @@
 
 #paragraphs {
     font-family: 'Noto Sans JP', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 40px;
 }
