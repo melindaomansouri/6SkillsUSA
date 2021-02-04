@@ -14,6 +14,7 @@
 #page-top img {
     width: 10%;
     height: auto;
+    max-height: 200%;
 }
 
 #page-top > header {
@@ -32,4 +33,10 @@ footer {
     text-align: center;
     border-top: 2px solid black;
     padding: 40px;
+}
+
+p1, p2, p3, p4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
