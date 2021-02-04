@@ -16,4 +16,9 @@
 
 #page-top > header {
     text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#paragraphs {
+    font-family: 'Noto Sans JP', sans-serif;
 }
